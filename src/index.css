@@ -6,9 +6,9 @@
 
 @layer base {
   :root {
-    /* Grey backgrounds */
-    --background: 210 10% 95%;
-    --foreground: 210 15% 20%;
+    /* Light blue background with purple text */
+    --background: 210 50% 96%;
+    --foreground: 270 60% 35%;
 
     /* Card styling */
     --card: 0 0% 100%;
