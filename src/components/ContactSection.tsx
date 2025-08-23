@@ -28,7 +28,7 @@ const ContactSection = () => {
     const body = encodeURIComponent(
       `Hi Aadithya,\n\n${formData.message}\n\nBest regards,\n${formData.name}\n${formData.email}`
     );
-    const mailtoLink = `mailto:XYZ@gmail.com?subject=${subject}&body=${body}`;
+    const mailtoLink = `mailto:aadithya.dev@gmail.com?subject=${subject}&body=${body}`;
     
     window.location.href = mailtoLink;
     
@@ -41,8 +41,8 @@ const ContactSection = () => {
   const contactInfo = [
     {
       label: "Email",
-      value: "XYZ@gmail.com",
-      action: () => window.location.href = "mailto:XYZ@gmail.com"
+      value: "aadithya.dev@gmail.com",
+      action: () => window.location.href = "mailto:aadithya.dev@gmail.com"
     },
     {
       label: "Phone",
@@ -164,7 +164,7 @@ const ContactSection = () => {
                 <Button
                   variant="secondary"
                   size="lg"
-                  onClick={() => window.location.href = "mailto:XYZ@gmail.com?subject=Project Discussion"}
+                  onClick={() => window.location.href = "mailto:aadithya.dev@gmail.com?subject=Project Discussion"}
                   className="hover-lift"
                 >
                   Schedule a Call

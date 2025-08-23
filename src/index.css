@@ -6,9 +6,9 @@
 
 @layer base {
   :root {
-    /* Very light green background with purple text */
+    /* Very light green background with dark green text */
     --background: 120 35% 97%;
-    --foreground: 270 60% 35%;
+    --foreground: 140 30% 25%;
 
     /* Card styling */
     --card: 0 0% 100%;

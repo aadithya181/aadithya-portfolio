@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { Github } from "lucide-react";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -54,6 +55,17 @@ const Navigation = () => {
                 {item.label}
               </button>
             ))}
+            
+            {/* GitHub Link */}
+            <a
+              href="https://github.com/yourusername" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-primary transition-colors"
+              aria-label="GitHub Profile"
+            >
+              <Github className="w-5 h-5" />
+            </a>
           </div>
 
           <Button
