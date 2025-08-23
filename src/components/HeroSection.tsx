@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import profileImage from "@/assets/profile-image.jpg";
 
 const HeroSection = () => {
   const scrollToPortfolio = () => {
@@ -53,7 +52,7 @@ const HeroSection = () => {
               <div className="absolute inset-0 bg-gradient-primary rounded-full blur-3xl opacity-20 animate-pulse"></div>
               <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white shadow-medium hover-glow">
                 <img
-                  src={profileImage}
+                  src="/lovable-uploads/c79134dc-a997-4cba-b7cb-4d535328b429.png"
                   alt="Aadithya - Full Stack Developer"
                   className="w-full h-full object-cover"
                 />
